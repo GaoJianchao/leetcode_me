@@ -25,6 +25,7 @@ int threeSumCloser(vector<int> &nums, int target){
 }
 
 int main(){
-	vector<int> nums = {1, 2, 9, 5, 6, 2, 3, 8};
+	int num[] =  {1, 2, 9, 5, 6, 2, 3, 8};
+	vector<int> nums(num, num+8);
 	cout << threeSumCloser(nums, 30)<<endl;
 }
